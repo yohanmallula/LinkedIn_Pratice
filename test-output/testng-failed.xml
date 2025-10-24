@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Parameter Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LinkedIn(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.google.com"/>
     <classes>
-      <class name="LinkedIn_Pratice.Dependency">
+      <class name="LinkedIn_Pratice.CheckBox">
         <methods>
-          <include name="loginTest"/>
+          <include name="handleMutableCheckBox"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- LinkedIn_Pratice.Dependency -->
+      </class> <!-- LinkedIn_Pratice.CheckBox -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- LinkedIn(failed) -->
+</suite> <!-- Failed suite [Parameter Suite] -->

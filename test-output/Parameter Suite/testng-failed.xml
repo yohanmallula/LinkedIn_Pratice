@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Parameter Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Cross Browser Test(failed)">
-    <parameter name="browser" value="edge"/>
+  <test thread-count="5" name="LinkedIn(failed)">
+    <parameter name="browser" value="chrome"/>
     <parameter name="url" value="https://www.google.com"/>
     <classes>
-      <class name="LinkedIn_Pratice.Parameter">
+      <class name="LinkedIn_Pratice.CheckBox">
         <methods>
-          <include name="validatePageTitle"/>
+          <include name="handleMutableCheckBox"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- LinkedIn_Pratice.Parameter -->
+      </class> <!-- LinkedIn_Pratice.CheckBox -->
     </classes>
-  </test> <!-- Cross Browser Test(failed) -->
+  </test> <!-- LinkedIn(failed) -->
 </suite> <!-- Failed suite [Parameter Suite] -->

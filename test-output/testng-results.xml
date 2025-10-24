@@ -1,29 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="16" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-22T20:36:04 IST" name="Default suite" finished-at="2025-10-22T20:36:14 IST" duration-ms="9502">
+  <suite started-at="2025-10-24T20:41:48 IST" name="Parameter Suite" finished-at="2025-10-24T20:44:55 IST" duration-ms="187085">
     <groups>
     </groups>
-    <test started-at="2025-10-22T20:36:04 IST" name="Default test" finished-at="2025-10-22T20:36:14 IST" duration-ms="9502">
-      <class name="LinkedIn_Pratice.Dependency">
-        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.Dependency@4d5d943d]" started-at="2025-10-22T20:36:04 IST" name="setup" description="setup chrome browser and open OrangeHRM demo site" finished-at="2025-10-22T20:36:09 IST" duration-ms="4618" status="PASS">
+    <test started-at="2025-10-24T20:41:48 IST" name="LinkedIn" finished-at="2025-10-24T20:44:55 IST" duration-ms="187085">
+      <class name="LinkedIn_Pratice.DropdownHandlingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.DropdownHandlingTest@45752059]" started-at="2025-10-24T20:41:48 IST" name="setup" finished-at="2025-10-24T20:41:55 IST" duration-ms="7074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:1, instance:LinkedIn_Pratice.Dependency@4d5d943d]" started-at="2025-10-22T20:36:09 IST" name="loginTest" description="Login with valid credentails" finished-at="2025-10-22T20:36:12 IST" duration-ms="2892" status="PASS">
+        <test-method signature="handleSingleDropdown()[pri:0, instance:LinkedIn_Pratice.DropdownHandlingTest@45752059]" started-at="2025-10-24T20:44:06 IST" name="handleSingleDropdown" finished-at="2025-10-24T20:44:07 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleSingleDropdown -->
+        <test-method signature="multabileselection()[pri:0, instance:LinkedIn_Pratice.DropdownHandlingTest@45752059]" started-at="2025-10-24T20:44:07 IST" name="multabileselection" finished-at="2025-10-24T20:44:07 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multabileselection -->
+      </class> <!-- LinkedIn_Pratice.DropdownHandlingTest -->
+      <class name="LinkedIn_Pratice.CheckBox">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.CheckBox@c730b35]" started-at="2025-10-24T20:41:59 IST" name="setup" finished-at="2025-10-24T20:42:06 IST" duration-ms="7301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="handleMutableCheckBox()[pri:0, instance:LinkedIn_Pratice.CheckBox@c730b35]" started-at="2025-10-24T20:42:06 IST" name="handleMutableCheckBox" finished-at="2025-10-24T20:42:08 IST" duration-ms="1231" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input class="bcCheckBox" id="hindichbx" name="language" type="checkbox"> is not clickable at point (408, 679). Other element would receive the click: <iframe id="aswift_7" name="aswift_7" browsingtopics="true" style="min-height: auto; max-height: none; min-width: auto; max-width: none; width: 728px !important; height: 90px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20251022/r20190131/zrt_lookup_fy2021.html#RS-1-&amp;adk=1812271801&amp;client=ca-pub-2190203024692607&amp;fa=1&amp;ifi=8&amp;uci=a!8&amp;btvi=4" data-google-container-id="a!8" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJjwy8qPvZADFYqDrAIdIYgdzQ" data-load-complete="true"></iframe>
+  (Session info: chrome=129.0.6668.89)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [919b9691c5cdf329bf2ba59618fc84f3, clickElement {id=f.241D77377A06B7ED438FE10DB2D140C2.d.062E99627B124F1B7B35381D50C7A8AB.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.89, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Yohan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55905/devtoo..., se:cdpVersion: 129.0.6668.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (919b9691c5cdf329bf2ba59618fc84f3)] -> xpath: //input[@type='checkbox']]
+Session ID: 919b9691c5cdf329bf2ba59618fc84f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="bcCheckBox" id="hindichbx" name="language" type="checkbox"> is not clickable at point (408, 679). Other element would receive the click: <iframe id="aswift_7" name="aswift_7" browsingtopics="true" style="min-height: auto; max-height: none; min-width: auto; max-width: none; width: 728px !important; height: 90px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20251022/r20190131/zrt_lookup_fy2021.html#RS-1-&amp;adk=1812271801&amp;client=ca-pub-2190203024692607&amp;fa=1&amp;ifi=8&amp;uci=a!8&amp;btvi=4" data-google-container-id="a!8" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJjwy8qPvZADFYqDrAIdIYgdzQ" data-load-complete="true"></iframe>
+  (Session info: chrome=129.0.6668.89)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [919b9691c5cdf329bf2ba59618fc84f3, clickElement {id=f.241D77377A06B7ED438FE10DB2D140C2.d.062E99627B124F1B7B35381D50C7A8AB.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.89, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Yohan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55905/devtoo..., se:cdpVersion: 129.0.6668.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (919b9691c5cdf329bf2ba59618fc84f3)] -> xpath: //input[@type='checkbox']]
+Session ID: 919b9691c5cdf329bf2ba59618fc84f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at LinkedIn_Pratice.CheckBox.handleMutableCheckBox(CheckBox.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleMutableCheckBox -->
+        <test-method signature="haandlesSingleCheckBox()[pri:1, instance:LinkedIn_Pratice.CheckBox@c730b35]" started-at="2025-10-24T20:42:08 IST" name="haandlesSingleCheckBox" finished-at="2025-10-24T20:42:08 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- haandlesSingleCheckBox -->
+      </class> <!-- LinkedIn_Pratice.CheckBox -->
+      <class name="LinkedIn_Pratice.Parameter">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:LinkedIn_Pratice.Parameter@36fc695d]" started-at="2025-10-24T20:41:55 IST" name="setup" description="setup browser and launch URL dynamicically" finished-at="2025-10-24T20:41:59 IST" duration-ms="4039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatePageTitle()[pri:1, instance:LinkedIn_Pratice.Parameter@36fc695d]" started-at="2025-10-24T20:41:59 IST" name="validatePageTitle" description="Validate page title" finished-at="2025-10-24T20:41:59 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitle -->
+      </class> <!-- LinkedIn_Pratice.Parameter -->
+      <class name="LinkedIn_Pratice.HandleSimpleAlertTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LinkedIn_Pratice.HandleSimpleAlertTest@3c41ed1d]" started-at="2025-10-24T20:44:21 IST" name="setUp" finished-at="2025-10-24T20:44:47 IST" duration-ms="26098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="handleSimpleAlert()[pri:1, instance:LinkedIn_Pratice.HandleSimpleAlertTest@3c41ed1d]" started-at="2025-10-24T20:44:47 IST" name="handleSimpleAlert" finished-at="2025-10-24T20:44:47 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleSimpleAlert -->
+        <test-method signature="handleConfirmAlert()[pri:2, instance:LinkedIn_Pratice.HandleSimpleAlertTest@3c41ed1d]" started-at="2025-10-24T20:44:47 IST" name="handleConfirmAlert" finished-at="2025-10-24T20:44:47 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleConfirmAlert -->
+        <test-method signature="handlePromptAlert()[pri:3, instance:LinkedIn_Pratice.HandleSimpleAlertTest@3c41ed1d]" started-at="2025-10-24T20:44:47 IST" name="handlePromptAlert" finished-at="2025-10-24T20:44:47 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlePromptAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LinkedIn_Pratice.HandleSimpleAlertTest@3c41ed1d]" started-at="2025-10-24T20:44:47 IST" name="tearDown" finished-at="2025-10-24T20:44:47 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LinkedIn_Pratice.HandleSimpleAlertTest -->
+      <class name="LinkedIn_Pratice.RadioButtons">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.RadioButtons@54d9d12d]" started-at="2025-10-24T20:44:47 IST" name="setup" finished-at="2025-10-24T20:44:55 IST" duration-ms="7164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectMaleRadioButton()[pri:1, instance:LinkedIn_Pratice.RadioButtons@54d9d12d]" started-at="2025-10-24T20:44:55 IST" name="selectMaleRadioButton" description="Select Male radio button and verify selection" finished-at="2025-10-24T20:44:55 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMaleRadioButton -->
+        <test-method signature="handleAllRadioButtons()[pri:2, instance:LinkedIn_Pratice.RadioButtons@54d9d12d]" started-at="2025-10-24T20:44:55 IST" name="handleAllRadioButtons" description="Select Female radio button dynamically from all options" finished-at="2025-10-24T20:44:55 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleAllRadioButtons -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LinkedIn_Pratice.RadioButtons@54d9d12d]" started-at="2025-10-24T20:44:55 IST" name="tearDown" finished-at="2025-10-24T20:44:55 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LinkedIn_Pratice.RadioButtons -->
+      <class name="LinkedIn_Pratice.FrameHandling">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.FrameHandling@34e9fd99]" started-at="2025-10-24T20:44:07 IST" name="setup" finished-at="2025-10-24T20:44:11 IST" duration-ms="3690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="handleSingleFrame()[pri:1, instance:LinkedIn_Pratice.FrameHandling@34e9fd99]" started-at="2025-10-24T20:44:11 IST" name="handleSingleFrame" finished-at="2025-10-24T20:44:21 IST" duration-ms="10235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleSingleFrame -->
+        <test-method signature="handleNestedFrames()[pri:2, instance:LinkedIn_Pratice.FrameHandling@34e9fd99]" started-at="2025-10-24T20:44:21 IST" name="handleNestedFrames" finished-at="2025-10-24T20:44:21 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleNestedFrames -->
+      </class> <!-- LinkedIn_Pratice.FrameHandling -->
+      <class name="LinkedIn_Pratice.Dependency">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.Dependency@36ebc363]" started-at="2025-10-24T20:42:51 IST" name="setup" description="setup chrome browser and open OrangeHRM demo site" finished-at="2025-10-24T20:43:16 IST" duration-ms="25064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:1, instance:LinkedIn_Pratice.Dependency@36ebc363]" started-at="2025-10-24T20:43:16 IST" name="loginTest" description="Login with valid credentails" finished-at="2025-10-24T20:43:26 IST" duration-ms="9762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="dashboardTest()[pri:2, instance:LinkedIn_Pratice.Dependency@4d5d943d]" started-at="2025-10-22T20:36:12 IST" name="dashboardTest" description="Verify dashboard elements after login" finished-at="2025-10-22T20:36:12 IST" depends-on-methods="LinkedIn_Pratice.Dependency.loginTest" duration-ms="52" status="PASS">
+        <test-method signature="dashboardTest()[pri:2, instance:LinkedIn_Pratice.Dependency@36ebc363]" started-at="2025-10-24T20:43:26 IST" name="dashboardTest" description="Verify dashboard elements after login" finished-at="2025-10-24T20:43:26 IST" depends-on-methods="LinkedIn_Pratice.Dependency.loginTest" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardTest -->
-        <test-method signature="logout()[pri:3, instance:LinkedIn_Pratice.Dependency@4d5d943d]" started-at="2025-10-22T20:36:12 IST" name="logout" finished-at="2025-10-22T20:36:14 IST" depends-on-methods="LinkedIn_Pratice.Dependency.loginTest" duration-ms="1884" status="PASS">
+        <test-method signature="logout()[pri:3, instance:LinkedIn_Pratice.Dependency@36ebc363]" started-at="2025-10-24T20:43:26 IST" name="logout" finished-at="2025-10-24T20:44:06 IST" depends-on-methods="LinkedIn_Pratice.Dependency.loginTest" duration-ms="40344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- LinkedIn_Pratice.Dependency -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="LinkedIn_Pratice.DataProviderr">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.DataProviderr@206a70ef]" started-at="2025-10-24T20:42:08 IST" name="setup" finished-at="2025-10-24T20:42:49 IST" duration-ms="41783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LinkedIn_Pratice.DataProviderr@206a70ef]" started-at="2025-10-24T20:42:49 IST" name="loginTest" data-provider="loginData" finished-at="2025-10-24T20:42:50 IST" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid username or password!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LinkedIn_Pratice.DataProviderr@206a70ef]" started-at="2025-10-24T20:42:50 IST" name="loginTest" data-provider="loginData" finished-at="2025-10-24T20:42:51 IST" duration-ms="1544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login Successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- LinkedIn_Pratice.DataProviderr -->
+    </test> <!-- LinkedIn -->
+  </suite> <!-- Parameter Suite -->
 </testng-results>
