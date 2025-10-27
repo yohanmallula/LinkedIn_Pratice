@@ -13,8 +13,9 @@
 			<class name="LinkedIn_Pratice.FrameHandling" />
 			<class name="LinkedIn_Pratice.HandleSimpleAlertTest" />
 			<class name="LinkedIn_Pratice.Parameter" />
-			<class name="LinkedIn_Pratice.RadioButtons" />  -->
-			<class name="LinkedIn_Pratice.DataDrivenLoginTestWithLog4j" />
+			<class name="LinkedIn_Pratice.RadioButtons" />  
+			<class name="LinkedIn_Pratice.DataDrivenLoginTestWithLog4j" /> -->
+			<class name="LinkedIn_Pratice.HandleWebElements_Collection" />
 		</classes>
 	</test>
 
