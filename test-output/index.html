@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Yohan\AppData\Local\Temp\testng-eclipse--2014204837\testng-customsuite.xml</span>
+                    <span>C:\Users\Yohan\AppData\Local\Temp\testng-eclipse--1613664255\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="LinkedIn_Pratice.HandleWebElements_Collection" class="method navigator-link" hash-for-method="extractProductName">extractProductName</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="LinkedIn_Pratice.PageFactoryLoginTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="LinkedIn_Pratice.PageFactoryLoginTest" class="method navigator-link" hash-for-method="validateMenuItems">validateMenuItems</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,14 +126,23 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">LinkedIn_Pratice.HandleWebElements_Collection</span>
+              <span class="class-name">LinkedIn_Pratice.PageFactoryLoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="extractProductName">
-                  </a> <!-- extractProductName -->
-                  <span class="method-name">extractProductName</span>
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMenuItems">
+                  </a> <!-- validateMenuItems -->
+                  <span class="method-name">validateMenuItems</span>
+                  <em>
+(Validate menu items using Collections)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +150,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Yohan\AppData\Local\Temp\testng-eclipse--2014204837\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Yohan\AppData\Local\Temp\testng-eclipse--1613664255\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,7 +159,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;LinkedIn_Pratice.HandleWebElements_Collection&quot;/&gt;
+      &lt;class name=&quot;LinkedIn_Pratice.PageFactoryLoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -185,16 +199,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'extractProductName')
-data.setCell(0, 2, 'LinkedIn_Pratice.HandleWebElements_Collection')
-data.setCell(0, 3, 2111);
+data.setCell(0, 1, 'validateMenuItems')
+data.setCell(0, 2, 'LinkedIn_Pratice.PageFactoryLoginTest')
+data.setCell(0, 3, 693);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'LinkedIn_Pratice.PageFactoryLoginTest')
+data.setCell(1, 3, 397);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -220,14 +238,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">LinkedIn_Pratice.HandleWebElements_Collection</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">LinkedIn_Pratice.PageFactoryLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">extractProductName</span>
-                <span class="method-start">1887 ms</span>
+                <span class="method-name">loginTest</span>
+                <span class="method-start">2238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateMenuItems</span>
+                <span class="method-start">2644 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
