@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LinkedIn_Pratice.HandleWebElements_Collection">
+      <class name="LinkedIn_Pratice.ActionsPracticeTest">
         <methods>
           <include name="setup"/>
-          <include name="extractProductName"/>
+          <include name="doubleClickTest"/>
+          <include name="hoverAndTooltipTest"/>
+          <include name="rightClickTest"/>
         </methods>
-      </class> <!-- LinkedIn_Pratice.HandleWebElements_Collection -->
+      </class> <!-- LinkedIn_Pratice.ActionsPracticeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
