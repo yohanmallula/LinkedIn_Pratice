@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LinkedIn_Pratice.ActionsPracticeTest">
+      <class name="LinkedIn_Pratice.ScreenshotAllInOne">
         <methods>
-          <include name="setup"/>
-          <include name="doubleClickTest"/>
-          <include name="hoverAndTooltipTest"/>
-          <include name="rightClickTest"/>
+          <include name="elementScreenshotTest"/>
+          <include name="fullPageScreenshotTest"/>
         </methods>
-      </class> <!-- LinkedIn_Pratice.ActionsPracticeTest -->
+      </class> <!-- LinkedIn_Pratice.ScreenshotAllInOne -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

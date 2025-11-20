@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Yohan\AppData\Local\Temp\testng-eclipse-395917284\testng-customsuite.xml</span>
+                    <span>C:\Users\Yohan\AppData\Local\Temp\testng-eclipse-1143039176\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,17 +103,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="LinkedIn_Pratice.ActionsPracticeTest" class="method navigator-link" hash-for-method="doubleClickTest">doubleClickTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="LinkedIn_Pratice.ScreenshotAllInOne" class="method navigator-link" hash-for-method="elementScreenshotTest">elementScreenshotTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="LinkedIn_Pratice.ActionsPracticeTest" class="method navigator-link" hash-for-method="hoverAndTooltipTest">hoverAndTooltipTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="LinkedIn_Pratice.ActionsPracticeTest" class="method navigator-link" hash-for-method="rightClickTest">rightClickTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="LinkedIn_Pratice.ScreenshotAllInOne" class="method navigator-link" hash-for-method="fullPageScreenshotTest">fullPageScreenshotTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -131,34 +126,25 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">LinkedIn_Pratice.ActionsPracticeTest</span>
+              <span class="class-name">LinkedIn_Pratice.ScreenshotAllInOne</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="doubleClickTest">
-                  </a> <!-- doubleClickTest -->
-                  <span class="method-name">doubleClickTest</span>
+                  <a name="elementScreenshotTest">
+                  </a> <!-- elementScreenshotTest -->
+                  <span class="method-name">elementScreenshotTest</span>
                   <em>
-(Double click and verify message)                  </em>
+(Take screenshot of the SauceDemo logo)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="hoverAndTooltipTest">
-                  </a> <!-- hoverAndTooltipTest -->
-                  <span class="method-name">hoverAndTooltipTest</span>
+                  <a name="fullPageScreenshotTest">
+                  </a> <!-- fullPageScreenshotTest -->
+                  <span class="method-name">fullPageScreenshotTest</span>
                   <em>
-(Hover over element and verify tooltip text)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="rightClickTest">
-                  </a> <!-- rightClickTest -->
-                  <span class="method-name">rightClickTest</span>
-                  <em>
-(Right click (context click) and verify)                  </em>
+(Take full screenshot of login page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -166,7 +152,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Yohan\AppData\Local\Temp\testng-eclipse-395917284\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Yohan\AppData\Local\Temp\testng-eclipse-1143039176\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -175,7 +161,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;LinkedIn_Pratice.ActionsPracticeTest&quot;/&gt;
+      &lt;class name=&quot;LinkedIn_Pratice.ScreenshotAllInOne&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -215,24 +201,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'hoverAndTooltipTest')
-data.setCell(0, 2, 'LinkedIn_Pratice.ActionsPracticeTest')
-data.setCell(0, 3, 6049);
+data.setCell(0, 1, 'fullPageScreenshotTest')
+data.setCell(0, 2, 'LinkedIn_Pratice.ScreenshotAllInOne')
+data.setCell(0, 3, 162);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'doubleClickTest')
-data.setCell(1, 2, 'LinkedIn_Pratice.ActionsPracticeTest')
-data.setCell(1, 3, 816);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'rightClickTest')
-data.setCell(2, 2, 'LinkedIn_Pratice.ActionsPracticeTest')
-data.setCell(2, 3, 243);
+data.setCell(1, 1, 'elementScreenshotTest')
+data.setCell(1, 2, 'LinkedIn_Pratice.ScreenshotAllInOne')
+data.setCell(1, 3, 162);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 324 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -258,22 +240,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">LinkedIn_Pratice.ActionsPracticeTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">LinkedIn_Pratice.ScreenshotAllInOne</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">hoverAndTooltipTest</span>
-                <span class="method-start">1756 ms</span>
+                <span class="method-name">fullPageScreenshotTest</span>
+                <span class="method-start">9762 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">doubleClickTest</span>
-                <span class="method-start">7813 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">rightClickTest</span>
-                <span class="method-start">8632 ms</span>
+                <span class="method-name">elementScreenshotTest</span>
+                <span class="method-start">9928 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

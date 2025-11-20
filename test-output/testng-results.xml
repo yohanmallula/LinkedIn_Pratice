@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-19T21:02:18 IST" name="Default suite" finished-at="2025-11-19T21:02:27 IST" duration-ms="8895">
+  <suite started-at="2025-11-20T20:56:29 IST" name="Default suite" finished-at="2025-11-20T20:56:39 IST" duration-ms="10110">
     <groups>
     </groups>
-    <test started-at="2025-11-19T21:02:18 IST" name="Default test" finished-at="2025-11-19T21:02:27 IST" duration-ms="8895">
-      <class name="LinkedIn_Pratice.ActionsPracticeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.ActionsPracticeTest@7ac2e39b]" started-at="2025-11-19T21:02:18 IST" name="setup" description="Setup browser and utilities" finished-at="2025-11-19T21:02:20 IST" duration-ms="1747" status="PASS">
+    <test started-at="2025-11-20T20:56:29 IST" name="Default test" finished-at="2025-11-20T20:56:39 IST" duration-ms="10110">
+      <class name="LinkedIn_Pratice.ScreenshotAllInOne">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.ScreenshotAllInOne@52d645b1]" started-at="2025-11-20T20:56:29 IST" name="setup" finished-at="2025-11-20T20:56:38 IST" duration-ms="9751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="hoverAndTooltipTest()[pri:1, instance:LinkedIn_Pratice.ActionsPracticeTest@7ac2e39b]" started-at="2025-11-19T21:02:20 IST" name="hoverAndTooltipTest" description="Hover over element and verify tooltip text" finished-at="2025-11-19T21:02:26 IST" duration-ms="6049" status="PASS">
+        <test-method signature="fullPageScreenshotTest()[pri:1, instance:LinkedIn_Pratice.ScreenshotAllInOne@52d645b1]" started-at="2025-11-20T20:56:38 IST" name="fullPageScreenshotTest" description="Take full screenshot of login page" finished-at="2025-11-20T20:56:38 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hoverAndTooltipTest -->
-        <test-method signature="doubleClickTest()[pri:2, instance:LinkedIn_Pratice.ActionsPracticeTest@7ac2e39b]" started-at="2025-11-19T21:02:26 IST" name="doubleClickTest" description="Double click and verify message" finished-at="2025-11-19T21:02:26 IST" depends-on-methods="LinkedIn_Pratice.ActionsPracticeTest.hoverAndTooltipTest" duration-ms="816" status="PASS">
+        </test-method> <!-- fullPageScreenshotTest -->
+        <test-method signature="elementScreenshotTest()[pri:2, instance:LinkedIn_Pratice.ScreenshotAllInOne@52d645b1]" started-at="2025-11-20T20:56:38 IST" name="elementScreenshotTest" description="Take screenshot of the SauceDemo logo" finished-at="2025-11-20T20:56:39 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doubleClickTest -->
-        <test-method signature="rightClickTest()[pri:3, instance:LinkedIn_Pratice.ActionsPracticeTest@7ac2e39b]" started-at="2025-11-19T21:02:26 IST" name="rightClickTest" description="Right click (context click) and verify" finished-at="2025-11-19T21:02:27 IST" depends-on-methods="LinkedIn_Pratice.ActionsPracticeTest.doubleClickTest" duration-ms="243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rightClickTest -->
-      </class> <!-- LinkedIn_Pratice.ActionsPracticeTest -->
+        </test-method> <!-- elementScreenshotTest -->
+      </class> <!-- LinkedIn_Pratice.ScreenshotAllInOne -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
