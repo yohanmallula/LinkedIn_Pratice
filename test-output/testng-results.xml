@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-24T20:57:46 IST" name="Parameter Suite" finished-at="2025-11-24T20:57:51 IST" duration-ms="4675">
+  <suite started-at="2025-11-26T20:59:08 IST" name="Default suite" finished-at="2025-11-26T20:59:24 IST" duration-ms="16061">
     <groups>
     </groups>
-    <test started-at="2025-11-24T20:57:46 IST" name="LinkedIn" finished-at="2025-11-24T20:57:51 IST" duration-ms="4675">
-      <class name="LinkedIn_Pratice.AlertHandlingTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.AlertHandlingTest@340da44c]" started-at="2025-11-24T20:57:46 IST" name="setup" finished-at="2025-11-24T20:57:50 IST" duration-ms="4408" status="PASS">
+    <test started-at="2025-11-26T20:59:08 IST" name="Default test" finished-at="2025-11-26T20:59:24 IST" duration-ms="16061">
+      <class name="LinkedIn_Pratice.WebTablePractice">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.WebTablePractice@4097cac]" started-at="2025-11-26T20:59:08 IST" name="setup" finished-at="2025-11-26T20:59:14 IST" duration-ms="6782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="simpleAlertTest()[pri:1, instance:LinkedIn_Pratice.AlertHandlingTest@340da44c]" started-at="2025-11-24T20:57:50 IST" name="simpleAlertTest" description="Handle Simple Alert" finished-at="2025-11-24T20:57:50 IST" duration-ms="78" status="PASS">
+        <test-method signature="countRowsColumns()[pri:1, instance:LinkedIn_Pratice.WebTablePractice@4097cac]" started-at="2025-11-26T20:59:14 IST" name="countRowsColumns" description="Count total rows and columns in the table" finished-at="2025-11-26T20:59:15 IST" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- simpleAlertTest -->
-        <test-method signature="confirmAlertTest()[pri:2, instance:LinkedIn_Pratice.AlertHandlingTest@340da44c]" started-at="2025-11-24T20:57:50 IST" name="confirmAlertTest" description="Handle Confirmation Alert" finished-at="2025-11-24T20:57:51 IST" duration-ms="83" status="PASS">
+        </test-method> <!-- countRowsColumns -->
+        <test-method signature="printAllTableData()[pri:2, instance:LinkedIn_Pratice.WebTablePractice@4097cac]" started-at="2025-11-26T20:59:15 IST" name="printAllTableData" description="Print all table data" finished-at="2025-11-26T20:59:23 IST" duration-ms="8824" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- confirmAlertTest -->
-        <test-method signature="promptAlertTest()[pri:3, instance:LinkedIn_Pratice.AlertHandlingTest@340da44c]" started-at="2025-11-24T20:57:51 IST" name="promptAlertTest" description="Handle Prompt Alert" finished-at="2025-11-24T20:57:51 IST" duration-ms="68" status="PASS">
+        </test-method> <!-- printAllTableData -->
+        <test-method signature="specificCellData()[pri:3, instance:LinkedIn_Pratice.WebTablePractice@4097cac]" started-at="2025-11-26T20:59:23 IST" name="specificCellData" description="Get data from specific cell" finished-at="2025-11-26T20:59:23 IST" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- promptAlertTest -->
-      </class> <!-- LinkedIn_Pratice.AlertHandlingTest -->
-    </test> <!-- LinkedIn -->
-  </suite> <!-- Parameter Suite -->
+        </test-method> <!-- specificCellData -->
+        <test-method signature="storeNamesInList()[pri:4, instance:LinkedIn_Pratice.WebTablePractice@4097cac]" started-at="2025-11-26T20:59:23 IST" name="storeNamesInList" description="Store all names in a List (Collections practice)" finished-at="2025-11-26T20:59:24 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeNamesInList -->
+      </class> <!-- LinkedIn_Pratice.WebTablePractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

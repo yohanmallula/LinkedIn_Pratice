@@ -18,8 +18,9 @@
 			<class name="LinkedIn_Pratice.HandleWebElements_Collection" />
 			<class name="LinkedIn_Pratice.PageFactoryLoginTest" />  
 			<class name="LinkedIn_Pratice.ActionsPracticeTest" /> 
-			<class name="LinkedIn_Pratice.ScreenshotAllInOne" /> -->
-			<class name="LinkedIn_Pratice.AlertHandlingTest" />
+			<class name="LinkedIn_Pratice.ScreenshotAllInOne" /> 
+			<class name="LinkedIn_Pratice.AlertHandlingTest" /> -->
+			<class name="LinkedIn_Pratice.WebTablePractice" />
 		</classes>
 	</test>
 

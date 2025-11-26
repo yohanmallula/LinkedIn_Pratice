@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LinkedIn_Pratice.AlertHandlingTest">
+      <class name="LinkedIn_Pratice.WebTablePractice">
         <methods>
-          <include name="promptAlertTest"/>
+          <include name="printAllTableData"/>
+          <include name="countRowsColumns"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- LinkedIn_Pratice.AlertHandlingTest -->
+      </class> <!-- LinkedIn_Pratice.WebTablePractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
