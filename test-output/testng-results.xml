@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-26T20:59:08 IST" name="Default suite" finished-at="2025-11-26T20:59:24 IST" duration-ms="16061">
+  <suite started-at="2025-11-28T20:26:38 IST" name="Parameter Suite" finished-at="2025-11-28T20:26:55 IST" duration-ms="16168">
     <groups>
     </groups>
-    <test started-at="2025-11-26T20:59:08 IST" name="Default test" finished-at="2025-11-26T20:59:24 IST" duration-ms="16061">
-      <class name="LinkedIn_Pratice.WebTablePractice">
-        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.WebTablePractice@4097cac]" started-at="2025-11-26T20:59:08 IST" name="setup" finished-at="2025-11-26T20:59:14 IST" duration-ms="6782" status="PASS">
+    <test started-at="2025-11-28T20:26:38 IST" name="LinkedIn" finished-at="2025-11-28T20:26:55 IST" duration-ms="16168">
+      <class name="LinkedIn_Pratice.FrameHandlingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.FrameHandlingTest@a43ce46]" started-at="2025-11-28T20:26:38 IST" name="setup" finished-at="2025-11-28T20:26:40 IST" duration-ms="1722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="countRowsColumns()[pri:1, instance:LinkedIn_Pratice.WebTablePractice@4097cac]" started-at="2025-11-26T20:59:14 IST" name="countRowsColumns" description="Count total rows and columns in the table" finished-at="2025-11-26T20:59:15 IST" duration-ms="140" status="PASS">
+        <test-method signature="iFrameTest()[pri:1, instance:LinkedIn_Pratice.FrameHandlingTest@a43ce46]" started-at="2025-11-28T20:26:40 IST" name="iFrameTest" description="Handle simple iFrame and verify text" finished-at="2025-11-28T20:26:54 IST" duration-ms="13485" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- countRowsColumns -->
-        <test-method signature="printAllTableData()[pri:2, instance:LinkedIn_Pratice.WebTablePractice@4097cac]" started-at="2025-11-26T20:59:15 IST" name="printAllTableData" description="Print all table data" finished-at="2025-11-26T20:59:23 IST" duration-ms="8824" status="PASS">
+        </test-method> <!-- iFrameTest -->
+        <test-method signature="nestedFramesTest()[pri:2, instance:LinkedIn_Pratice.FrameHandlingTest@a43ce46]" started-at="2025-11-28T20:26:54 IST" name="nestedFramesTest" description="Handle nested frames and extract text" finished-at="2025-11-28T20:26:55 IST" duration-ms="929" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printAllTableData -->
-        <test-method signature="specificCellData()[pri:3, instance:LinkedIn_Pratice.WebTablePractice@4097cac]" started-at="2025-11-26T20:59:23 IST" name="specificCellData" description="Get data from specific cell" finished-at="2025-11-26T20:59:23 IST" duration-ms="47" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- specificCellData -->
-        <test-method signature="storeNamesInList()[pri:4, instance:LinkedIn_Pratice.WebTablePractice@4097cac]" started-at="2025-11-26T20:59:23 IST" name="storeNamesInList" description="Store all names in a List (Collections practice)" finished-at="2025-11-26T20:59:24 IST" duration-ms="200" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- storeNamesInList -->
-      </class> <!-- LinkedIn_Pratice.WebTablePractice -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- nestedFramesTest -->
+      </class> <!-- LinkedIn_Pratice.FrameHandlingTest -->
+    </test> <!-- LinkedIn -->
+  </suite> <!-- Parameter Suite -->
 </testng-results>
