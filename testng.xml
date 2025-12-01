@@ -20,8 +20,9 @@
 			<class name="LinkedIn_Pratice.ActionsPracticeTest" /> 
 			<class name="LinkedIn_Pratice.ScreenshotAllInOne" /> 
 			<class name="LinkedIn_Pratice.AlertHandlingTest" />
-			<class name="LinkedIn_Pratice.WebTablePractice" />  -->
-			<class name="LinkedIn_Pratice.FrameHandlingTest" />
+			<class name="LinkedIn_Pratice.WebTablePractice" />  
+			<class name="LinkedIn_Pratice.FrameHandlingTest" /> -->
+			<class name="LinkedIn_Pratice.WindowHandlingTest" />
 		</classes>
 	</test>
 
