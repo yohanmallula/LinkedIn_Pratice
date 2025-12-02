@@ -21,8 +21,9 @@
 			<class name="LinkedIn_Pratice.ScreenshotAllInOne" /> 
 			<class name="LinkedIn_Pratice.AlertHandlingTest" />
 			<class name="LinkedIn_Pratice.WebTablePractice" />  
-			<class name="LinkedIn_Pratice.FrameHandlingTest" /> -->
-			<class name="LinkedIn_Pratice.WindowHandlingTest" />
+			<class name="LinkedIn_Pratice.FrameHandlingTest" /> 
+			<class name="LinkedIn_Pratice.WindowHandlingTest" /> -->
+			<class name="LinkedIn_Pratice.FluentWaitPracticeTest" />
 		</classes>
 	</test>
 

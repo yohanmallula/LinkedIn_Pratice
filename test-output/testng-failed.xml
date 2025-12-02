@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LinkedIn_Pratice.FileUploadDownloadTest">
+      <class name="LinkedIn_Pratice.FluentWaitPracticeTest">
         <methods>
+          <include name="customWaitConditionTest"/>
           <include name="setup"/>
-          <include name="uploadFileTest"/>
         </methods>
-      </class> <!-- LinkedIn_Pratice.FileUploadDownloadTest -->
+      </class> <!-- LinkedIn_Pratice.FluentWaitPracticeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

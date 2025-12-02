@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-01T21:02:14 IST" name="Default suite" finished-at="2025-12-01T21:02:20 IST" duration-ms="6587">
+  <suite started-at="2025-12-02T20:56:12 IST" name="Default suite" finished-at="2025-12-02T20:56:23 IST" duration-ms="10717">
     <groups>
     </groups>
-    <test started-at="2025-12-01T21:02:14 IST" name="Default test" finished-at="2025-12-01T21:02:20 IST" duration-ms="6587">
-      <class name="LinkedIn_Pratice.WindowHandlingTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.WindowHandlingTest@4c2cc639]" started-at="2025-12-01T21:02:14 IST" name="setup" finished-at="2025-12-01T21:02:16 IST" duration-ms="1868" status="PASS">
+    <test started-at="2025-12-02T20:56:12 IST" name="Default test" finished-at="2025-12-02T20:56:23 IST" duration-ms="10717">
+      <class name="LinkedIn_Pratice.FluentWaitPracticeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.FluentWaitPracticeTest@7c1e2a2d]" started-at="2025-12-02T20:56:12 IST" name="setup" finished-at="2025-12-02T20:56:14 IST" duration-ms="1665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="windowSwitchTest()[pri:1, instance:LinkedIn_Pratice.WindowHandlingTest@4c2cc639]" started-at="2025-12-01T21:02:16 IST" name="windowSwitchTest" description="Switch to new window and verify text" finished-at="2025-12-01T21:02:20 IST" duration-ms="4045" status="PASS">
+        <test-method signature="fluentWaitTest()[pri:1, instance:LinkedIn_Pratice.FluentWaitPracticeTest@7c1e2a2d]" started-at="2025-12-02T20:56:14 IST" name="fluentWaitTest" description="Create custom wait to check element text change" finished-at="2025-12-02T20:56:23 IST" duration-ms="8654" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- windowSwitchTest -->
-        <test-method signature="openNewTabTest()[pri:2, instance:LinkedIn_Pratice.WindowHandlingTest@4c2cc639]" started-at="2025-12-01T21:02:20 IST" name="openNewTabTest" description="Open new tab using JavaScript and validate URL" finished-at="2025-12-01T21:02:20 IST" duration-ms="618" status="PASS">
+        </test-method> <!-- fluentWaitTest -->
+        <test-method signature="customWaitConditionTest()[pri:2, instance:LinkedIn_Pratice.FluentWaitPracticeTest@7c1e2a2d]" started-at="2025-12-02T20:56:23 IST" name="customWaitConditionTest" description="Create custom wait to check element text change" finished-at="2025-12-02T20:56:23 IST" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openNewTabTest -->
-      </class> <!-- LinkedIn_Pratice.WindowHandlingTest -->
+        </test-method> <!-- customWaitConditionTest -->
+      </class> <!-- LinkedIn_Pratice.FluentWaitPracticeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
