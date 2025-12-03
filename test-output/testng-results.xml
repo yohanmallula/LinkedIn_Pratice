@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-02T20:56:12 IST" name="Default suite" finished-at="2025-12-02T20:56:23 IST" duration-ms="10717">
+  <suite started-at="2025-12-03T20:58:52 IST" name="Parameter Suite" finished-at="2025-12-03T20:59:04 IST" duration-ms="11597">
     <groups>
     </groups>
-    <test started-at="2025-12-02T20:56:12 IST" name="Default test" finished-at="2025-12-02T20:56:23 IST" duration-ms="10717">
+    <test started-at="2025-12-03T20:58:52 IST" name="LinkedIn" finished-at="2025-12-03T20:59:04 IST" duration-ms="11597">
       <class name="LinkedIn_Pratice.FluentWaitPracticeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.FluentWaitPracticeTest@7c1e2a2d]" started-at="2025-12-02T20:56:12 IST" name="setup" finished-at="2025-12-02T20:56:14 IST" duration-ms="1665" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.FluentWaitPracticeTest@7a560583]" started-at="2025-12-03T20:58:52 IST" name="setup" finished-at="2025-12-03T20:58:54 IST" duration-ms="1591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="fluentWaitTest()[pri:1, instance:LinkedIn_Pratice.FluentWaitPracticeTest@7c1e2a2d]" started-at="2025-12-02T20:56:14 IST" name="fluentWaitTest" description="Create custom wait to check element text change" finished-at="2025-12-02T20:56:23 IST" duration-ms="8654" status="PASS">
+        <test-method signature="fluentWaitTest()[pri:1, instance:LinkedIn_Pratice.FluentWaitPracticeTest@7a560583]" started-at="2025-12-03T20:58:54 IST" name="fluentWaitTest" description="Create custom wait to check element text change" finished-at="2025-12-03T20:59:03 IST" duration-ms="9639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fluentWaitTest -->
-        <test-method signature="customWaitConditionTest()[pri:2, instance:LinkedIn_Pratice.FluentWaitPracticeTest@7c1e2a2d]" started-at="2025-12-02T20:56:23 IST" name="customWaitConditionTest" description="Create custom wait to check element text change" finished-at="2025-12-02T20:56:23 IST" duration-ms="354" status="PASS">
+        <test-method signature="customWaitConditionTest()[pri:2, instance:LinkedIn_Pratice.FluentWaitPracticeTest@7a560583]" started-at="2025-12-03T20:59:03 IST" name="customWaitConditionTest" description="Create custom wait to check element text change" finished-at="2025-12-03T20:59:04 IST" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customWaitConditionTest -->
       </class> <!-- LinkedIn_Pratice.FluentWaitPracticeTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- LinkedIn -->
+  </suite> <!-- Parameter Suite -->
 </testng-results>
