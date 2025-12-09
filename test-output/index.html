@@ -103,12 +103,12 @@
                     <div class="method-list-content passed suite-Parameter_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parameter_Suite" title="LinkedIn_Pratice.FluentWaitPracticeTest" class="method navigator-link" hash-for-method="customWaitConditionTest">customWaitConditionTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Parameter_Suite" title="LinkedIn_Pratice.BrokenLinkImageTest" class="method navigator-link" hash-for-method="checkBrokenImages">checkBrokenImages</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parameter_Suite" title="LinkedIn_Pratice.FluentWaitPracticeTest" class="method navigator-link" hash-for-method="fluentWaitTest">fluentWaitTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Parameter_Suite" title="LinkedIn_Pratice.BrokenLinkImageTest" class="method navigator-link" hash-for-method="checkBrokenLinks">checkBrokenLinks</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Parameter_Suite -->
@@ -126,25 +126,25 @@
           <div class="suite-Parameter_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">LinkedIn_Pratice.FluentWaitPracticeTest</span>
+              <span class="class-name">LinkedIn_Pratice.BrokenLinkImageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="customWaitConditionTest">
-                  </a> <!-- customWaitConditionTest -->
-                  <span class="method-name">customWaitConditionTest</span>
+                  <a name="checkBrokenImages">
+                  </a> <!-- checkBrokenImages -->
+                  <span class="method-name">checkBrokenImages</span>
                   <em>
-(Create custom wait to check element text change)                  </em>
+(Validate broken images on page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="fluentWaitTest">
-                  </a> <!-- fluentWaitTest -->
-                  <span class="method-name">fluentWaitTest</span>
+                  <a name="checkBrokenLinks">
+                  </a> <!-- checkBrokenLinks -->
+                  <span class="method-name">checkBrokenLinks</span>
                   <em>
-(Create custom wait to check element text change)                  </em>
+(Validate broken links on page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -163,7 +163,7 @@
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;parameter name=&quot;url&quot; value=&quot;https://www.google.com&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;LinkedIn_Pratice.FluentWaitPracticeTest&quot;/&gt;
+      &lt;class name=&quot;LinkedIn_Pratice.BrokenLinkImageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- LinkedIn --&gt;
 &lt;/suite&gt; &lt;!-- Parameter Suite --&gt;
@@ -205,18 +205,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'fluentWaitTest')
-data.setCell(0, 2, 'LinkedIn_Pratice.FluentWaitPracticeTest')
-data.setCell(0, 3, 9639);
+data.setCell(0, 1, 'checkBrokenLinks')
+data.setCell(0, 2, 'LinkedIn_Pratice.BrokenLinkImageTest')
+data.setCell(0, 3, 4345);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'customWaitConditionTest')
-data.setCell(1, 2, 'LinkedIn_Pratice.FluentWaitPracticeTest')
-data.setCell(1, 3, 311);
+data.setCell(1, 1, 'checkBrokenImages')
+data.setCell(1, 2, 'LinkedIn_Pratice.BrokenLinkImageTest')
+data.setCell(1, 3, 3280);
 window.suiteTableData['Parameter_Suite']= { tableData: data, tableDiv: 'times-div-Parameter_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Parameter_Suite">
               </div> <!-- times-div-Parameter_Suite -->
             </div> <!-- times-div -->
@@ -242,19 +242,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">LinkedIn_Pratice.FluentWaitPracticeTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">LinkedIn_Pratice.BrokenLinkImageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">fluentWaitTest</span>
-                <span class="method-start">1603 ms</span>
+                <span class="method-name">checkBrokenImages</span>
+                <span class="method-start">5316 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">customWaitConditionTest</span>
-                <span class="method-start">11245 ms</span>
+                <span class="method-name">checkBrokenLinks</span>
+                <span class="method-start">8603 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12951 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
