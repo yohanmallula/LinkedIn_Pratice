@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-09T20:50:28 IST" name="Parameter Suite" finished-at="2025-12-09T20:50:42 IST" duration-ms="13237">
+  <suite started-at="2026-01-29T20:42:07 IST" name="Default suite" finished-at="2026-01-29T20:42:16 IST" duration-ms="9165">
     <groups>
     </groups>
-    <test started-at="2025-12-09T20:50:28 IST" name="LinkedIn" finished-at="2025-12-09T20:50:42 IST" duration-ms="13237">
-      <class name="LinkedIn_Pratice.BrokenLinkImageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.BrokenLinkImageTest@424ebba3]" started-at="2025-12-09T20:50:28 IST" name="setup" finished-at="2025-12-09T20:50:34 IST" duration-ms="5304" status="PASS">
+    <test started-at="2026-01-29T20:42:07 IST" name="Default test" finished-at="2026-01-29T20:42:16 IST" duration-ms="9165">
+      <class name="LinkedIn_Pratice.ShadowDOMTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.ShadowDOMTest@6f2cfcc2]" started-at="2026-01-29T20:42:07 IST" name="setup" finished-at="2026-01-29T20:42:16 IST" duration-ms="9028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkBrokenImages()[pri:1, instance:LinkedIn_Pratice.BrokenLinkImageTest@424ebba3]" started-at="2025-12-09T20:50:34 IST" name="checkBrokenImages" description="Validate broken images on page" finished-at="2025-12-09T20:50:37 IST" duration-ms="3280" status="PASS">
+        <test-method signature="shadowDomTest()[pri:0, instance:LinkedIn_Pratice.ShadowDOMTest@6f2cfcc2]" started-at="2026-01-29T20:42:16 IST" name="shadowDomTest" description="Handle Shadow DOM and search a book" finished-at="2026-01-29T20:42:16 IST" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkBrokenImages -->
-        <test-method signature="checkBrokenLinks()[pri:2, instance:LinkedIn_Pratice.BrokenLinkImageTest@424ebba3]" started-at="2025-12-09T20:50:37 IST" name="checkBrokenLinks" description="Validate broken links on page" finished-at="2025-12-09T20:50:41 IST" duration-ms="4345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkBrokenLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:LinkedIn_Pratice.BrokenLinkImageTest@424ebba3]" started-at="2025-12-09T20:50:41 IST" name="tearDown" finished-at="2025-12-09T20:50:42 IST" duration-ms="269" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- LinkedIn_Pratice.BrokenLinkImageTest -->
-    </test> <!-- LinkedIn -->
-  </suite> <!-- Parameter Suite -->
+        </test-method> <!-- shadowDomTest -->
+      </class> <!-- LinkedIn_Pratice.ShadowDOMTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

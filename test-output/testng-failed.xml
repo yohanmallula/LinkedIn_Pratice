@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LinkedIn_Pratice.PaginationHandlingTest">
+      <class name="LinkedIn_Pratice.ShadowDOMTest">
         <methods>
-          <include name="setup"/>
-          <include name="paginationTest"/>
+          <include name="shadowDomTest"/>
         </methods>
-      </class> <!-- LinkedIn_Pratice.PaginationHandlingTest -->
+      </class> <!-- LinkedIn_Pratice.ShadowDOMTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
