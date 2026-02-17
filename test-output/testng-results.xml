@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-29T20:42:07 IST" name="Default suite" finished-at="2026-01-29T20:42:16 IST" duration-ms="9165">
+  <suite started-at="2026-02-17T20:48:45 IST" name="Default suite" finished-at="2026-02-17T20:48:50 IST" duration-ms="5283">
     <groups>
     </groups>
-    <test started-at="2026-01-29T20:42:07 IST" name="Default test" finished-at="2026-01-29T20:42:16 IST" duration-ms="9165">
-      <class name="LinkedIn_Pratice.ShadowDOMTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.ShadowDOMTest@6f2cfcc2]" started-at="2026-01-29T20:42:07 IST" name="setup" finished-at="2026-01-29T20:42:16 IST" duration-ms="9028" status="PASS">
+    <test started-at="2026-02-17T20:48:45 IST" name="Default test" finished-at="2026-02-17T20:48:50 IST" duration-ms="5283">
+      <class name="LinkedIn_Pratice.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.LoginTest@52d645b1]" started-at="2026-02-17T20:48:45 IST" name="setup" finished-at="2026-02-17T20:48:49 IST" duration-ms="3732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="shadowDomTest()[pri:0, instance:LinkedIn_Pratice.ShadowDOMTest@6f2cfcc2]" started-at="2026-01-29T20:42:16 IST" name="shadowDomTest" description="Handle Shadow DOM and search a book" finished-at="2026-01-29T20:42:16 IST" duration-ms="106" status="PASS">
+        <test-method signature="testExecution()[pri:0, instance:LinkedIn_Pratice.LoginTest@52d645b1]" started-at="2026-02-17T20:48:49 IST" name="testExecution" finished-at="2026-02-17T20:48:50 IST" duration-ms="1455" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shadowDomTest -->
-      </class> <!-- LinkedIn_Pratice.ShadowDOMTest -->
+        </test-method> <!-- testExecution -->
+      </class> <!-- LinkedIn_Pratice.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

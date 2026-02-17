@@ -25,8 +25,9 @@
 			<class name="LinkedIn_Pratice.WindowHandlingTest" /> 
 			<class name="LinkedIn_Pratice.FluentWaitPracticeTest" /> 
 			<class name="LinkedIn_Pratice.FrameHandlingTest" /> 
-			<class name="LinkedIn_Pratice.BrokenLinkImageTest" /> -->
-			<class name="LinkedIn_Pratice.ShadowDOMTest" />
+			<class name="LinkedIn_Pratice.BrokenLinkImageTest" /> 
+			<class name="LinkedIn_Pratice.ShadowDOMTest" /> -->
+			<class name="LinkedIn_Pratice.LoginTest" />
 		</classes>
 	</test>
 
