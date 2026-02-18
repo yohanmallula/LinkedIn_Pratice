@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-17T20:48:45 IST" name="Default suite" finished-at="2026-02-17T20:48:50 IST" duration-ms="5283">
+  <suite started-at="2026-02-18T21:04:10 IST" name="Parameter Suite" finished-at="2026-02-18T21:04:13 IST" duration-ms="2449">
     <groups>
     </groups>
-    <test started-at="2026-02-17T20:48:45 IST" name="Default test" finished-at="2026-02-17T20:48:50 IST" duration-ms="5283">
-      <class name="LinkedIn_Pratice.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:LinkedIn_Pratice.LoginTest@52d645b1]" started-at="2026-02-17T20:48:45 IST" name="setup" finished-at="2026-02-17T20:48:49 IST" duration-ms="3732" status="PASS">
+    <test started-at="2026-02-18T21:04:10 IST" name="LinkedIn" finished-at="2026-02-18T21:04:13 IST" duration-ms="2449">
+      <class name="LinkedIn2.LoginTest">
+        <test-method signature="executeTest()[pri:0, instance:LinkedIn2.LoginTest@70a36a66]" started-at="2026-02-18T21:04:10 IST" name="executeTest" finished-at="2026-02-18T21:04:13 IST" duration-ms="2384" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testExecution()[pri:0, instance:LinkedIn_Pratice.LoginTest@52d645b1]" started-at="2026-02-17T20:48:49 IST" name="testExecution" finished-at="2026-02-17T20:48:50 IST" duration-ms="1455" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExecution -->
-      </class> <!-- LinkedIn_Pratice.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- executeTest -->
+      </class> <!-- LinkedIn2.LoginTest -->
+    </test> <!-- LinkedIn -->
+  </suite> <!-- Parameter Suite -->
 </testng-results>

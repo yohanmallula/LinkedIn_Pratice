@@ -3,10 +3,8 @@
 <suite name="Parameter Suite">
 
 	<test name="LinkedIn">
-		<parameter name="browser" value="chrome" />
-		<parameter name="url" value="https://www.google.com" />
 		<classes>
-			<!--	<class name="LinkedIn_Pratice.DataProviderr" />
+			<!--<class name="LinkedIn_Pratice.DataProviderr" />
 			<class name="LinkedIn_Pratice.Parameter" />
 			<class name="LinkedIn_Pratice.Dependency" />
 			<class name="LinkedIn_Pratice.DropdownHandlingTest" />
@@ -26,8 +24,9 @@
 			<class name="LinkedIn_Pratice.FluentWaitPracticeTest" /> 
 			<class name="LinkedIn_Pratice.FrameHandlingTest" /> 
 			<class name="LinkedIn_Pratice.BrokenLinkImageTest" /> 
-			<class name="LinkedIn_Pratice.ShadowDOMTest" /> -->
-			<class name="LinkedIn_Pratice.LoginTest" />
+			<class name="LinkedIn_Pratice.ShadowDOMTest" />
+			<class name="LinkedIn_Pratice.LoginTest" /> -->
+			 <class name="LinkedIn2.LoginTest" />
 		</classes>
 	</test>
 
